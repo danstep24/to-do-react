@@ -3,3 +3,31 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+h1 {
+}
+
+.headerBar {
+	width: 100%;
+	background-color: #42d9f4;
+	padding: 10px; 
+
+}
+
+.input, .btn {
+	display: inline-block;
+	margin: 10px;
+}
+
+.listItem {
+	border: 1px solid #afafaf;
+	padding: 10px;
+	margin: 8px;
+	width: 50%;
+	list-style: none;
+	border-radius: 3px;
+	box-shadow: 1px 1px #afafaf;
+}
+.completed {
+	background-color: #42d9f4;
+}
